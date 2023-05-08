@@ -1,0 +1,34 @@
+Started by user [8mha:////4O9puNnOYJXJZTL12fKQJ3sHI86w79iYfCAx2w5kXj+qAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/Test_Webhook
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/Test_Webhook/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Lukyanchyk/project.git # timeout=10
+Fetching upstream changes from https://github.com/Lukyanchyk/project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.34.1'
+ > git fetch --tags --force --progress -- https://github.com/Lukyanchyk/project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse origin/main^{commit} # timeout=10
+Checking out Revision ed6d72b9e17faccdaf5bfdac61d73a6400f527ed (origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f ed6d72b9e17faccdaf5bfdac61d73a6400f527ed # timeout=10
+Commit message: "Test ping"
+ > git rev-list --no-walk ed6d72b9e17faccdaf5bfdac61d73a6400f527ed # timeout=10
+[Test_Webhook] $ /bin/sh /tmp/jenkins754032758229637716.sh
+total 8
+-rw-r--r-- 1 jenkins jenkins 118 мая  8 13:11 lists.list
+-rw-r--r-- 1 jenkins jenkins 195 мая  8 13:11 ping.sh
+Site google.com is up
+Site onliner.by is down
+Site github.com is up
+Site site.com is down
+Site it-academy.by is up
+Site ns.nl is up
+Site example.com is up
+Site github.com is up
+Site github.com is up
+Site gitlab.com is up
+Site gitlab.com is up
+Finished: SUCCESS
