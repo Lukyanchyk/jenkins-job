@@ -3,7 +3,7 @@ folder('TestFolder') {
     description('Folder for XML Seed Jobs')
 }
 
-job("TestFolder/test_seed"){
+job("Test_seed"){
     scm {
         github('Lukyanchyk/jenkins-job', 'main')
     }
@@ -13,7 +13,7 @@ job("TestFolder/test_seed"){
             rm -rf /var/lib/jenkins/jobs/TestFolder/jobs/*
             pwd
             ls -l
-            mv /var/lib/jenkins/workspace/TestFolder/test_seed/jobs/* /var/lib/jenkins/jobs/TestFolder/jobs/
+            mv /var/lib/jenkins/workspace/TestFolder/jobs/* /var/lib/jenkins/jobs/TestFolder/jobs/
             ls -l /var/lib/jenkins/jobs/TestFolder/jobs/
         """)
     }
