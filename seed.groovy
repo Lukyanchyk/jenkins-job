@@ -5,7 +5,7 @@ folder('TestFolder') {
 
 job("TestFolder/test_seed"){
     scm {
-        github('Lukyanchyk/jenkins-job.git', 'main')
+        github('Lukyanchyk/jenkins-job', 'main')
     }
     steps {
         shell("""
